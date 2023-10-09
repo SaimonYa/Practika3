@@ -1,5 +1,5 @@
-class DeckOfCards {
-    var cardValues = arrayOf(
+open class DeckOfCards {
+    val cardValues = arrayOf(
         1,
         1,
         1,
@@ -53,7 +53,7 @@ class DeckOfCards {
         10,
         10
     )
-    var cardTitles = arrayOf(
+    val cardTitles = arrayOf(
         "A",
         "A",
         "A",
@@ -107,15 +107,4 @@ class DeckOfCards {
         'K',
         "K"
     )
-    /* var cardValuesForUse = cardValues
-     //fun CopyArrayCardValues(cardValues: Int) {
-     cardValues.forEach
-     {
-         i -> println("Значение элемента равно $i")
-         //  }
-     }*/
-    fun f(Values: Int) {
-        var a = Values[5]
-    }
-    println(f(cardValues))
 }
